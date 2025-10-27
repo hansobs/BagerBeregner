@@ -1,0 +1,17 @@
+{
+  "name": "Hans Boller – Beregner",
+  "short_name": "Hans Boller",
+  "description": "Beregner til surdejsboller – offline, hurtig og smart.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#282a36",
+  "theme_color": "#282a36",
+  "icons": [
+    {
+      "src": "https://bohnsvendsen.dk/hansboller/hansboller.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

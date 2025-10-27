@@ -266,6 +266,24 @@
       .bottom-bar { display: none; }
     }
   </style>
+  
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#282a36" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Hans Boller">
+  <link rel="apple-touch-icon" href="https://bohnsvendsen.dk/hansboller/hansboller.png">
+
+  <script>
+  // Register the service worker
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+            .then(() => console.log('✅ Service Worker registered'))
+            .catch(err => console.warn('SW registration failed:', err));
+    });
+  }
+</script>
 </head>
 <body>
   <div class="container">
