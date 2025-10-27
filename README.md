@@ -34,3 +34,8 @@ Hvis du ønsker at bidrage:
 ## 🤝 Kontakt
 Har du spørgsmål, ønsker eller bare feedback – send en besked eller opret en issue her på GitHub.
 Tak fordi du bruger **BagerBeregner** – god bagning! 🍞
+
+
+## Noter
+filerne er lagt på one.com
+alt dns er kontrolleret på cloudflare.com
