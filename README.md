@@ -19,19 +19,11 @@ En lille web‑app der hjælper dig med at beregne mængder i dine dejopskrifter
 ## 📂 Struktur
 - `bakerman.html` – hovedfilen med brugervenlig brugerflade.
 - `hansboller.png` – eksempel eller grafik (kan tilpasses).
-- (Andre filer hvis tilføjet senere)
 
 ## ✅ Når du bruger programmet
 - Sørg for at alle ingredienser (mel, vand, surdej, salt, gær) har korrekte værdier, især procent‑værdierne.
 - Tjek at totaldej‑vægt og sum af procent‑værdier giver mening (fx procent for surdej + gær + salt + etc. bør være mindre end eller lig med 100 % minus vand+mel).
 - Det er et værktøj – husk altid at justere efter din egen erfaring med dejens konsistens og hævetid.
-
-## 🛠️ Mulige forbedringer
-- Tilføj validering af inputfelter (fx at procent ikke overstiger 100 %).
-- Gem favoritrecepturer eller præ‑indstillede profiler (fx “rustikt landbrød”, “hurtigt surdejsbrød”).
-- Skift til responsivt design, så den fungerer godt på mobil/tablet.
-- Export af opskrift til print eller PDF.
-- Understøttelse af flere meltyper (fx fuldkorn, rug, hvide) og automatisk tilpasning af vandmængde.
 
 ## 📄 Licens & bidrag
 Dette projekt er open source – du er meget velkommen til at bidrage med forbedringer, rette fejl eller tilføje funktioner.
