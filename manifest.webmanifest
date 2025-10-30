@@ -9,7 +9,7 @@
   "theme_color": "#282a36",
   "icons": [
     {
-      "src": "https://bohnsvendsen.dk/hansboller/hansboller.png",
+      "src": "https://bager.bohnsvendsen.dk/hansboller.png",
       "sizes": "512x512",
       "type": "image/png"
     }

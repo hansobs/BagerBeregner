@@ -1,11 +1,11 @@
 // Simple cache-first service worker
-const CACHE_VERSION = "v4"; // ⬅️ bump this each time you upload new files
+const CACHE_VERSION = "v5"; // ⬅️ bump this each time you upload new files
 const CACHE_NAME = `hansboller-${CACHE_VERSION}`;
 
 const FILES_TO_CACHE = [
   "./",
   "./index.html",   
-  "./hansboller.png",
+  "https://bager.bohnsvendsen.dk/hansboller.png",
   "./manifest.webmanifest"
 ];
 
