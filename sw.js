@@ -1,5 +1,5 @@
 // Simple cache-first service worker
-const CACHE_VERSION = "v2"; // ⬅️ bump this each time you upload new files
+const CACHE_VERSION = "v3"; // ⬅️ bump this each time you upload new files
 const CACHE_NAME = `hansboller-${CACHE_VERSION}`;
 
 const FILES_TO_CACHE = [
