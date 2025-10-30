@@ -4,8 +4,7 @@ const CACHE_NAME = `hansboller-${CACHE_VERSION}`;
 
 const FILES_TO_CACHE = [
   "./",
-  "./index.html",
-  "./main.https",         
+  "./index.html",   
   "./hansboller.png",
   "./manifest.webmanifest"
 ];
